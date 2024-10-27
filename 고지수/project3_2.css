@@ -1,0 +1,39 @@
+* {
+  font-size: 15px;
+  background-color: #585858;
+  margin: auto;
+  color: white;
+}
+
+form {
+  padding: 10px;
+  text-align: left;
+}
+
+#box {
+  width: 400px;
+  height: 500px;
+  border: solid white 2px;
+  border-radius: 3px 3px 3px;
+  margin-top: 200px;
+  text-align: left;
+}
+
+p {
+  border: solid white 1.5px;
+  border-radius: 5px 5px 5px 5px;
+  font-size: 11px;
+  padding: 10px;
+  margin: 2px;
+}
+
+#box input[type="button"] {
+  border: none;
+  background-color: #03c75a;
+  color: white;
+  height: 50px;
+  width: 350px;
+  border-radius: 5px 5px 5px 5px;
+  position: relative;
+  left: 15px;
+}

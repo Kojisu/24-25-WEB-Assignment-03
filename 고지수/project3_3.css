@@ -1,0 +1,125 @@
+* {
+  text-align: center;
+  background-color: #585858;
+}
+
+p {
+  text-align: right;
+  font-size: 12px;
+  color: white;
+  margin-top: 15px;
+}
+
+.container {
+  margin: auto;
+  width: 400px;
+  height: 600px;
+  border: solid 1px black;
+  background-color: white;
+}
+
+.container > form {
+  background-color: white;
+}
+
+.container input[type="text"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="password"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="email"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="name"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="birth"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="tel"] {
+  text-align: left;
+  font-weight: bold;
+  width: 300px;
+  height: 30px;
+  margin: 5px;
+  background-color: white;
+  border: solid lightgray 1px;
+}
+
+.container input[type="submit"] {
+  text-align: center;
+  width: 180px;
+  height: 35px;
+  margin: 5px;
+  margin-right: 20px;
+  background-color: #03c75a;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  color: white;
+}
+
+.container input[type="reset"] {
+  text-align: center;
+  width: 100px;
+  height: 35px;
+  margin: 5px;
+  background-color: #f51d1d;
+  border-radius: 5px 5px 5px 5px;
+  border: none;
+  color: white;
+}
+
+.container .input-box .material-symbols-outlined {
+  position: relative;
+  left: 30px;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  text-align: center;
+  top: 50%;
+}
+
+.container .div .material-symbols-outlined {
+  left: 40px;
+  background-color: white;
+}
+
+.container .input-box {
+  background-color: white;
+}

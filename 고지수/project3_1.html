@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>과제 1번</title>
+    <style>
+      @import url(project3_1.css);
+    </style>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+  </head>
+  <body>
+    <div class="box">
+      <img src = ./logo.jpeg width="400" height="200">
+      <hr />
+      <form name="fo" method="get">
+        <div class="input-box">
+          <span class="material-symbols-outlined">person</span>
+          <input type="text" value="" placeholder="        아이디" />
+        </div>
+        <br />
+        <div class="input-box">
+          <span class="material-symbols-outlined"> lock </span>
+          <input type="password" value="" placeholder="        비밀번호" />
+        </div>
+        <br />
+        <br />
+        <br />
+        <input type="button" value="로그인" />
+        <!--<a href="./3_1_success.html">로그인</a>-->
+        <script>
+          let button = document.getElementById("button");
+          button.addEventListener("click", Function());
+
+          function Function() {
+            if (text == "") {
+              alert("아이디를 입력해주세요.");
+            } else if (password == "") {
+              alert("비밀번호를 입력해주세요.");
+            } else {
+              document.getElementById().innerHTML("./3_1_success.html");
+            }
+          }
+        </script>
+      </form>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,65 @@
+* {
+  text-align: center;
+  border: center;
+  background-color: #585858;
+}
+
+.box {
+  width: 500px;
+  height: 600px;
+  background-color: white;
+  margin: auto;
+  margin-top: 300px;
+}
+
+.box > form {
+  background-color: white;
+}
+
+.box input[type="text"] {
+  text-align: left;
+  height: 40px;
+  width: 300px;
+  margin-top: 8px;
+  background-color: white;
+  border: solid lightgray 2px;
+}
+
+.box input[type="password"] {
+  text-align: left;
+  left: 40px;
+  height: 40px;
+  width: 300px;
+  margin-top: 8px;
+  background-color: white;
+  border: solid lightgray 2px;
+}
+
+.box input[type="button"] {
+  border: none;
+  background-color: #03c75a;
+  color: white;
+  height: 50px;
+  width: 310px;
+  border-radius: 5px 5px 5px 5px;
+  margin-top: 15px;
+}
+
+.box .div .material-symbols-outlined {
+  left: 40px;
+  background-color: white;
+}
+
+.box .input-box {
+  background-color: white;
+}
+
+.box .input-box .material-symbols-outlined {
+  position: relative;
+  left: 30px;
+  background-color: white;
+  width: 15px;
+  height: 15px;
+  top: 50%;
+  text-align: center;
+}
